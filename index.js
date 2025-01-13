@@ -39,23 +39,27 @@ const showTasks = () => {
 };
 
 const deleteTask = () => {
+    // Check if the task list is empty
     if (todos.length === 0) {
-        console.log(' Aucune tâche à supprimer.');
-        mainMenu();
-        return;
+        console.log(' Aucune tâche à supprimer.'); // Error message for empty list
+        mainMenu(); // Return to the main menu
+        return; // Exit the function
     }
+
+    // Display tasks to the user
     showTasks();
     rl.question('Entrez le numéro de la tâche à supprimer : ', (number) => {
-        const index = parseInt(number, 10) - 1;
+        const index = parseInt(number, 10) - 1; // Convert input to a 0-based index
         if (index >= 0 && index < todos.length) {
-            const removed = todos.splice(index, 1);
+            const removed = todos.splice(index, 1); // Remove the task
             console.log(` Tâche supprimée : "${removed[0]}"`);
         } else {
-            console.log(' Numéro invalide.');
+            console.log(' Numéro invalide.'); // Invalid input handling
         }
-        mainMenu();
+        mainMenu(); // Return to the main menu
     });
 };
+
 
 const mainMenu = () => {
     showMenu();
