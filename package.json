@@ -1,0 +1,19 @@
+{
+  "name": "todolist-duongwendy-cdof2",
+  "version": "1.0.0",
+  "description": "to do list application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnydng/Todo-List---DUONG-Wendy---CDOF2.git"
+  },
+  "author": "wnydng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wnydng/Todo-List---DUONG-Wendy---CDOF2/issues"
+  },
+  "homepage": "https://github.com/wnydng/Todo-List---DUONG-Wendy---CDOF2#readme"
+}
