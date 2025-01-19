@@ -1,19 +1,21 @@
 # Todo-List---DUONG-Wendy---CDOF2
 Todo List Application
 
-Langage utilisé : Javascript
-Application permettant de gérer des tâches
+Langage utilisï¿½ : Javascript
+Application permettant de gï¿½rer des tï¿½ches
 
 
-## Fonctionnalités de l'application
-- Ajouter une tâche
-- Afficher toutes les tâches
-- Supprimer une tâche
+## Fonctionnalitï¿½s de l'application
+- Ajouter une tï¿½che
+- Afficher toutes les tï¿½ches
+- Supprimer une tï¿½che
 
 ## Installation
-1. Cloner le dépôt avec la commande : git clone https://github.com/wnydng/Todo-List---DUONG-Wendy---CDOF2.git
-2. Exécuter l'application : node index.js
+1. Cloner le dï¿½pï¿½t avec la commande : git clone https://github.com/wnydng/Todo-List---DUONG-Wendy---CDOF2.git
+2. Exï¿½cuter l'application : node index.js
 
-## Suggestion d'améliorations
-- Ajouter des catégories de tâches
-- Ajouter une date limite pour chaque tâche
+## Suggestion d'amï¿½liorations
+- Ajouter des catï¿½gories de tï¿½ches
+- Ajouter une date limite pour chaque tï¿½che
+- Ajouter la possibilitÃ© d'organiser les tÃ¢ches par catÃ©gories (ex. : Travail, Personnel, Courses).
+- Ajouter une option pour indiquer qu'une tÃ¢che a Ã©tÃ© accomplie.
